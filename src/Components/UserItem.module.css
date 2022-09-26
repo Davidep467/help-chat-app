@@ -1,0 +1,19 @@
+.LastMsg {
+    color: black;
+    cursor: pointer;
+}
+.Unread {
+    color: red;
+    cursor: pointer;
+}
+
+.UnSelectedUser {
+    border: none;
+    cursor: pointer;
+}
+.SelectedUser {
+    border-bottom: 3px solid #964316;
+    transition: all 0.2s;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,10 @@
+.ArticleContainer h1{
+    text-align: center;
+}
+.ArticleContainer p{
+    padding:40px;
+}
+.ToChat {
+    text-align: center;
+    margin-top:-40px;
+}

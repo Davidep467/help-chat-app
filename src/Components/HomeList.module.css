@@ -1,0 +1,86 @@
+.HomeTitle {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.HomeItemCont {
+  height: 100%;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #5bccf6;
+}
+.HomeItemCont p {
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.HomeItemContPlus {
+  height: 100%;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #5bccf6;
+  display: none;
+}
+.HomeItemContPlus p {
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media only screen and (min-device-width: 1200px) {
+  .GoChatButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .HomeListCont {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .HomeItemCont {
+    float: left;
+    width: 300px;
+    margin-left: 6%;
+  }
+  .HomeItemContPlus {
+    float: left;
+    width: 300px;
+    margin-left: 6%;
+    display: none;
+  }
+  .ItemData {
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .MoreButton {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-device-width: 1300px) {
+  .HomeListCont {
+    width: 100%;
+    margin: 0;
+  }
+  .HomeItemContPlus {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 1500px) {
+  .HomeListCont {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .HomeItemContPlus {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 1600px) {
+  .HomeListCont {
+    width: 100%;
+    margin: 0;
+  }
+  .HomeItemContPlus {
+    display: block;
+  }
+}

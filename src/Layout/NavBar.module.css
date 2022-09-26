@@ -1,0 +1,35 @@
+.Header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fbde68;
+  margin: 0;
+}
+
+.Logo {
+  width: 100px;
+  margin-top: 15px;
+}
+.Header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.Header li {
+  padding-left: 3rem;
+}
+
+.Header a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #201400;
+}
+
+Header a:hover {
+  color: #964316 !important;
+}

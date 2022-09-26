@@ -1,0 +1,26 @@
+.LoginTitle {
+  text-align: center;
+  margin-top: 40px;
+}
+.LoginForm {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+.LoginForm h3 {
+  margin-bottom: 10px;
+}
+.LoginButton {
+  margin-top: 40px;
+  margin-left: 45%;
+  margin-bottom: 30px;
+}
+
+.Credentials {
+  text-align: center;
+}
+.Field {
+  width: 100%;
+  height: 25px;
+  padding-left: 4px;
+}

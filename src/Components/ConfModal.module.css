@@ -1,0 +1,45 @@
+.Modal {
+  text-align: center;
+  color: white;
+  overflow: auto;
+}
+.Modal button {
+  color: white;
+}
+.LoadingContainer {
+  margin-top: 300px;
+}
+
+.ImgContainer {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.ImgContainer img {
+  margin-top: 50px;
+  border: 2px solid white;
+}
+.Close {
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: right;
+  float: right;
+}
+.Send {
+  align-items: center;
+}
+.IframeModal {
+  width: 60%;
+  margin-left: 5%;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+
+@media only screen and (min-device-width: 1600px) {
+  .IframeModal {
+    height: 750px;
+  }
+}

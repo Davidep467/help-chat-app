@@ -1,0 +1,14 @@
+.Container {
+  display: flex;
+}
+
+.Chat {
+  float: right;
+}
+.UserList {
+  padding: 20px;
+  width: 300px;
+  height: 100%;
+  margin-top: 40px;
+  position: fixed;
+}

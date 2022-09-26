@@ -1,0 +1,15 @@
+.Time {
+  text-align: right;
+  font-size: 8pt;
+  margin:0
+}
+
+.TimeUser {
+    text-align: left;
+    font-size: 8pt;
+    margin:0
+  }
+
+img {
+  cursor: pointer;
+}
